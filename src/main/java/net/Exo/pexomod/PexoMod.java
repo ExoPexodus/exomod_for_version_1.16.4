@@ -1,6 +1,7 @@
 package net.Exo.pexomod;
 
 import com.mojang.logging.LogUtils;
+import net.Exo.pexomod.block.ModBlocks;
 import net.Exo.pexomod.item.Moditems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,8 @@ public class PexoMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         Moditems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

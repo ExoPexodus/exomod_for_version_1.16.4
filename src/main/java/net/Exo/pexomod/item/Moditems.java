@@ -14,7 +14,11 @@ public class Moditems {
             DeferredRegister.create(ForgeRegistries.ITEMS, PexoMod.MOD_ID);
 
     public static final RegistryObject<Item> KATHIUM = ITEMS.register("kathium",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> MUSHROOM_PINK = ITEMS.register("pinkshroom",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> MUSHROOM_RED = ITEMS.register("redshroom",
+            () -> new Item(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus)
     {

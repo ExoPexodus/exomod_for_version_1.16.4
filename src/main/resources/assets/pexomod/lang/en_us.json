@@ -1,3 +1,7 @@
 {
-  "item.pexomod.kathium" : "Kathium"
+  "item.pexomod.kathium" : "Kathium",
+  "item.pexomod.pinkshroom" : "PinkShroom",
+  "item.pexomod.redshroom" : "RedShroom",
+
+  "block.pexomod.kathium_block": "Kathium Block"
 }
