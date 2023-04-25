@@ -2,6 +2,13 @@
   "item.pexomod.kathium" : "Kathium",
   "item.pexomod.pinkshroom" : "PinkShroom",
   "item.pexomod.redshroom" : "RedShroom",
+  "item.pexomod.krying_gold" : "Krying Gold",
+  "item.pexomod.raw_kathium": "Raw Kathium",
 
-  "block.pexomod.kathium_block": "Kathium Block"
+
+  "block.pexomod.kathium_block": "Kathium Block",
+  "block.pexomod.nether_kathium_block": "Nether Kathium Block",
+  "block.pexomod.deepslate_kathium_block": "Deepslate Kathium Block",
+  "block.pexomod.krying_gold_block": "Krying Gold Block",
+  "block.pexomod.stone_kathium_block": "Stone Kathium Block"
 }

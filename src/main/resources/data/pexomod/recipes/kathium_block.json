@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "Item": "pexomod:kathium"
+    }
+  },
+  "result": {
+    "item": "pexomod:kathium_block"
+  }
+}

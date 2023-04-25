@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pexomod:block/krying_gold_block"
+  }
+}

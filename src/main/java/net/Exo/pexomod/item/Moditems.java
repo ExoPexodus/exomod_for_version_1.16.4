@@ -15,10 +15,14 @@ public class Moditems {
 
     public static final RegistryObject<Item> KATHIUM = ITEMS.register("kathium",
             () -> new Item(new Item.Properties().stacksTo(64)));
+    public static final RegistryObject<Item> RAW_KATHIUM = ITEMS.register("raw_kathium",
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final RegistryObject<Item> MUSHROOM_PINK = ITEMS.register("pinkshroom",
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> MUSHROOM_RED = ITEMS.register("redshroom",
             () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> KRYING_GOLD = ITEMS.register("krying_gold",
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
     public static void register(IEventBus eventBus)
     {
