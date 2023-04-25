@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "pexomod:kathium"
+    }
+  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
-  "key": {
-    "#": {
-      "Item": "pexomod:kathium"
-    }
-  },
   "result": {
     "item": "pexomod:kathium_block"
-  }
+  },
+  "show_notification": true
 }

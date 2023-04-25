@@ -1,5 +1,9 @@
 {
   "values": [
-
+    "pexomod:nether_kathium_block",
+    "pexomod:kathium_block",
+    "pexomod:deepslate_kathium_block",
+    "pexomod:stone_kathium_block",
+    "pexomod:krying_gold_block"
   ]
 }
